@@ -1,0 +1,164 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&family=Sarala&family=Source+Sans+Pro:ital@1&family=Suez+One&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body {
+    font-size: 100%;
+    background: #121212;
+}
+::-webkit-scrollbar {
+    width: 8px;
+
+}
+::-webkit-scrollbar-track {
+    background: rgb(31, 31, 31);
+    border-radius: 30px;
+}
+::-webkit-scrollbar-thumb {
+    background: linear-gradient(90deg, rgba(71,255,148,1) 12%, rgba(67,247,169,1) 35%, rgba(65,243,166,1) 56%, rgba(64,240,161,1) 75%, rgba(63,237,159,1) 92%);
+    border-radius: 16px;
+}
+
+/*------------------------CABEÇALHO------------------------*/
+.cabecalho {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    background: #121212;
+    padding: 16px;
+}
+
+.cabecalho-image {
+    width: 40px;
+    top: 10px;
+}
+
+.cabecalho-menu {
+    font-size: 17px;
+    display: flex;
+    gap: 70px;
+    position: relative;
+    left: -80px;
+}
+
+.cabecalho-item {
+    color: #c4c4c4;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    line-height: 28px; 
+}
+/*------------------------HOME-------------------------*/
+.conteudo-primario {
+    border-top: 2px solid rgba(66, 66, 66, 0.384);
+    background-color: #121212;
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    padding: 70px;
+}
+
+.segunda-frase {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    padding: 220px;
+    left: -350px;
+}
+
+.frase-titular{
+  font-size: 34px;
+  color: #c4c4c4;
+  position: relative;
+  top: -110px;
+  left: 55px;
+}
+.frase-secundaria {
+    font-size: 60px;
+    position: relative;
+    top: -100px;
+    left: 52px;
+    color: rgb(8, 211, 143);
+}
+.secundaria-subtitulo {
+  color: #c4c4c4;
+  position: relative;
+  top: -80px;
+  left: 55px;
+}
+
+.terceira-frase{
+    font-family: 'Source Sans Pro', sans-serif;
+    display: flex;
+    position: relative;
+    font-size: 18px;
+    left: 350px;
+    top: -100px;
+}
+/*------------------------SOBRE MIM-------------------------*/
+.conteudo-sobremim{
+  font-family: 'Roboto', sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  padding: 340px;
+  background: #151515;
+}
+.sobremim-frase {
+color: #c4c4c4;
+position: relative;
+top: -260px;
+}
+/*------------------------PORTFOLIO------------------------*/
+.conteudo-secundario{
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    padding: 340px;
+    background: #121212;
+}
+.portfolio-frase {
+  color: #c4c4c4;
+  position: relative;
+  top: -260px;
+}
+
+/*------------------------CONTATO------------------------*/
+.conteudo-contato{
+    background: #151515;
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    padding: 350px;
+}
+.divisao-frase{
+  position: relative;
+  top: -250px;
+  left: 40px;
+  color: #c4c4c4;
+}
+/*------------------------RODAPÉ------------------------*/
+.rodape{
+    border-top: 2px solid rgba(66, 66, 66, 0.384);
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    padding: 20px;
+    background: #121212
+}
+.frase-final{
+  color: #c4c4c4;
+}
