@@ -19,7 +19,8 @@ body {
     border-radius: 30px;
 }
 ::-webkit-scrollbar-thumb {
-    background: linear-gradient(90deg, rgba(71,255,148,1) 12%, rgba(67,247,169,1) 35%, rgba(65,243,166,1) 56%, rgba(64,240,161,1) 75%, rgba(63,237,159,1) 92%);
+    background: linear-gradient(10deg, rgba(90,255,234,1) 0%, rgba(48,243,244,1) 30%, rgba(19,200,251,1) 59%, rgba(0,181,255,1) 85%);
+    /*background: linear-gradient(90deg, rgba(71,255,148,1) 12%, rgba(67,247,169,1) 35%, rgba(65,243,166,1) 56%, rgba(64,240,161,1) 75%, rgba(63,237,159,1) 92%); */
     border-radius: 16px;
 }
 
@@ -34,7 +35,7 @@ body {
 }
 
 .cabecalho-image {
-    width: 40px;
+    width: 50px;
     top: 10px;
 }
 
@@ -61,30 +62,32 @@ body {
     flex-direction: column;
     align-items: center;
     justify-content: space-around;
-    padding: 70px;
+    padding: -50px;
 }
 
 .segunda-frase {
     display: flex;
     flex-direction: column;
     position: relative;
-    padding: 220px;
+    top:  150px;
+    padding: 70px;
     left: -350px;
 }
 
-.frase-titular{
+.frase-titular {
   font-size: 34px;
   color: #c4c4c4;
   position: relative;
   top: -110px;
   left: 55px;
 }
+
 .frase-secundaria {
     font-size: 60px;
     position: relative;
     top: -100px;
     left: 52px;
-    color: rgb(8, 211, 143);
+    color:rgb(90, 255, 234); /* 8, 211, 143 */
 }
 .secundaria-subtitulo {
   color: #c4c4c4;
@@ -93,7 +96,7 @@ body {
   left: 55px;
 }
 
-.terceira-frase{
+.terceira-frase {
     font-family: 'Source Sans Pro', sans-serif;
     display: flex;
     position: relative;
@@ -101,21 +104,120 @@ body {
     left: 350px;
     top: -100px;
 }
+
+.imagem-conteudo-primario {
+    display: flex;
+    position: relative;
+    top: -230px;
+    height: 400px;
+    left: 329px; 
+}
+
+/*---------BOTÃO/HOME-------*/
+
+.botao-principal {
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    top: 150px;
+    left: -290px;
+    gap: 150px;
+
+}
+
+.botao__principal-linkedin {
+    display: flex;
+    align-items: center;
+    padding: 3px 5px 5px;
+    gap: 20px;
+    position: relative;
+    border-radius: 8px;
+    background-color: #121212;
+    font-size: 23px;
+    font-weight: 600;
+    letter-spacing: 2px;
+    color: #c4c4c4;
+    height: 50px;
+
+}
+.linkedin {
+    position: relative;
+    top: -3px;
+    width: 24px;
+}
+
+.botao__principal-github {
+    display: flex;
+    align-items: center;
+    padding: 3px 5px 5px;
+    gap: 20px;
+    position: relative;
+    border-radius: 8px;
+    background-color: #121212;
+    font-size: 23px;
+    font-weight: 600;
+    letter-spacing: 2px;
+    color: #c4c4c4;
+    height: 50px;
+
+}
+
+.github {
+    position: relative;
+    top: -3px;
+    width: 24px;
+}
+
 /*------------------------SOBRE MIM-------------------------*/
 .conteudo-sobremim{
-  font-family: 'Roboto', sans-serif;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: space-around;
-  padding: 340px;
-  background: #151515;
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    padding: 350px;
+    background: #151515;
+}
+.myself{
+    position: relative;
+    left: -400px;
+    top: -100px;
+    width: 250px;
+    border-radius: 300px;
 }
 .sobremim-frase {
-color: #c4c4c4;
-position: relative;
-top: -260px;
+    color: #c4c4c4;
+    position: relative;
+    top: -260px;
 }
+
+.linha-sobremim {
+    position: relative;
+    top: -250px;
+    border-radius: 2px;
+}
+.terceira-frase-sobremim{
+    color: #c4c4c4;
+    word-break: break-all;
+    position:  relative;
+    top: -160px;
+    left: -100px;
+}
+.botao-curriculo {
+    display: flex;
+    align-items: center;
+    padding: 3px 5px 5px;
+    gap: 20px;
+    position: relative;
+    border-radius: 8px;
+    background-color: #151515;
+    font-size: 23px;
+    font-weight: 600;
+    letter-spacing: 2px;
+    color: #ffffff;
+    height: 50px;
+}
+
 /*------------------------PORTFOLIO------------------------*/
 .conteudo-secundario{
     font-family: 'Roboto', sans-serif;
@@ -123,7 +225,7 @@ top: -260px;
     flex-direction: column;
     align-items: center;
     justify-content: space-around;
-    padding: 340px;
+    padding: 350px;
     background: #121212;
 }
 .portfolio-frase {
@@ -131,7 +233,21 @@ top: -260px;
   position: relative;
   top: -260px;
 }
+.botão-portfolio {
+    display: flex;
+    align-items: center;
+    padding: 3px 5px 5px;
+    gap: 20px;
+    position: relative;
+    border-radius: 8px;
+    background-color: #121212;
+    font-size: 23px;
+    font-weight: 600;
+    letter-spacing: 2px;
+    color: #c4c4c4;
+    height: 50px;
 
+}
 /*------------------------CONTATO------------------------*/
 .conteudo-contato{
     background: #151515;
